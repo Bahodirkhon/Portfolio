@@ -10,24 +10,69 @@ import {
 const Resume = () => {
   const skills = {
     frontend: [
-      { name: "HTML", level: 95, color: "from-orange-500 to-red-500" },
-      { name: "CSS", level: 90, color: "from-blue-500 to-cyan-500" },
-      { name: "JavaScript", level: 88, color: "from-yellow-500 to-orange-500" },
-      { name: "TypeScript", level: 85, color: "from-blue-600 to-blue-400" },
-      { name: "React.js", level: 90, color: "from-cyan-500 to-blue-500" },
-      { name: "Next.js", level: 82, color: "from-gray-700 to-gray-900" },
+      {
+        name: "HTML",
+        level: "Advanced",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "CSS",
+        level: "Intermediate",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "JavaScript",
+        level: "Intermediate",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "TypeScript",
+        level: "Intermediate",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "React.js",
+        level: "Intermediate",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "Next.js",
+        level: "Intermediate",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
     ],
     styling: [
-      { name: "Tailwind CSS", level: 92, color: "from-cyan-400 to-blue-500" },
-      { name: "Sass", level: 85, color: "from-pink-500 to-red-500" },
+      {
+        name: "Tailwind CSS",
+        level: "Advanced",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "Sass",
+        level: "Advanced",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
     ],
     tools: [
-      { name: "Firebase", level: 78, color: "from-yellow-500 to-orange-600" },
-      { name: "Git & GitHub", level: 88, color: "from-gray-600 to-gray-800" },
       {
-        name: "AI Integration",
-        level: 85,
-        color: "from-purple-500 to-pink-500",
+        name: "Firebase",
+        level: "Intermediate",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "Git & GitHub",
+        level: "Advanced",
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
       },
     ],
   };
@@ -79,14 +124,14 @@ const Resume = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="/CV.pdf"
+              href="/resume.pdf"
               className="flex items-center gap-2 px-6 py-3 bg-linear-to-r from-purple-600 to-cyan-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:-translate-y-1"
             >
               <Download size={20} />
               Download PDF
             </a>
             <a
-              href="/CV.pdf"
+              href="/resume.pdf"
               className="flex items-center gap-2 px-6 py-3 border-2 border-purple-500 rounded-lg font-semibold hover:bg-purple-500/10 transition-all duration-300"
             >
               <ExternalLink size={20} />
@@ -97,12 +142,9 @@ const Resume = () => {
         <div className="mb-16 bg-slate-900/50 border-2 border-dashed border-slate-700 rounded-2xl p-8 text-center hover:border-purple-500/50 transition-all duration-300">
           <FileText className="mx-auto mb-4 text-gray-600" size={64} />
           <p className="text-gray-400 mb-2">PDF Resume Preview</p>
-          <p className="text-sm text-gray-500">
-            Upload your resume PDF to display it here
-          </p>
           ,
           <iframe
-            src="/CV.pdf"
+            src="/resume.pdf"
             className="w-full h-[600px]"
             title="Resume Preview"
           />
@@ -125,13 +167,13 @@ const Resume = () => {
                         {skill.name}
                       </span>
                       <span className="text-gray-500 text-sm">
-                        {skill.level}%
+                        {skill.level}
                       </span>
                     </div>
                     <div className="w-full bg-slate-800 rounded-full h-2.5 overflow-hidden">
                       <div
                         className={`bg-linear-to-r ${skill.color} h-2.5 rounded-full transition-all duration-1000 shadow-lg`}
-                        style={{ width: `${skill.level}%` }}
+                        style={{ width: `${skill.level}` }}
                       />
                     </div>
                   </div>
@@ -151,13 +193,13 @@ const Resume = () => {
                         {skill.name}
                       </span>
                       <span className="text-gray-500 text-sm">
-                        {skill.level}%
+                        {skill.level}
                       </span>
                     </div>
                     <div className="w-full bg-slate-800 rounded-full h-2.5 overflow-hidden">
                       <div
                         className={`bg-linear-to-r ${skill.color} h-2.5 rounded-full transition-all duration-1000 shadow-lg`}
-                        style={{ width: `${skill.level}%` }}
+                        style={{ width: `${skill.level}` }}
                       />
                     </div>
                   </div>
@@ -177,7 +219,7 @@ const Resume = () => {
                         {skill.name}
                       </span>
                       <span className="text-gray-500 text-sm">
-                        {skill.level}%
+                        {skill.level}
                       </span>
                     </div>
                     <div className="w-full bg-slate-800 rounded-full h-2.5 overflow-hidden">

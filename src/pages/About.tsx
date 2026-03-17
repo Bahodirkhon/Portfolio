@@ -3,22 +3,21 @@ import { Calendar, Code, MapPin, Sparkles } from "lucide-react";
 const About = () => {
   const skills = {
     frontend: [
-      { name: "HTML", level: "Used in real projects" },
-      { name: "CSS", level: "Used in real projects" },
-      { name: "JavaScript", level: "Used in real projects" },
-      { name: "TypeScript", level: "Used in real projects" },
-      { name: "React.js", level: "Production experience" },
-      { name: "Next.js", level: "Personal & client projects" },
+      { name: "HTML", level: "Advanced" },
+      { name: "CSS", level: "Intermediate" },
+      { name: "JavaScript", level: "Intermediate" },
+      { name: "TypeScript", level: "Intermediate" },
+      { name: "React.js", level: "Intermediate" },
+      { name: "Next.js", level: "Intermediate" },
     ],
     styling: [
-      { name: "Tailwind CSS", level: "Production experience" },
-      { name: "Sass", level: "Used in real projects" },
-      { name: "DaisyUI", level: "Used in real projects" },
+      { name: "Tailwind CSS", level: "Advanced" },
+      { name: "Sass", level: "Advanced" },
+      { name: "DaisyUI", level: "Advanced" },
     ],
     tools: [
-      { name: "Firebase", level: "Used in real projects" },
-      { name: "Git & GitHub", level: "Daily use" },
-      { name: "AI Integration", level: "Daily use in development" },
+      { name: "Firebase", level: "Intermediate" },
+      { name: "Git & GitHub", level: "Advanced" },
     ],
   };
 
