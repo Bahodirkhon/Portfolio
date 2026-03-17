@@ -10,24 +10,69 @@ import {
 const Resume = () => {
   const skills = {
     frontend: [
-      { name: "HTML", level: 95, color: "from-orange-500 to-red-500" },
-      { name: "CSS", level: 90, color: "from-blue-500 to-cyan-500" },
-      { name: "JavaScript", level: 88, color: "from-yellow-500 to-orange-500" },
-      { name: "TypeScript", level: 85, color: "from-blue-600 to-blue-400" },
-      { name: "React.js", level: 90, color: "from-cyan-500 to-blue-500" },
-      { name: "Next.js", level: 82, color: "from-gray-700 to-gray-900" },
+      {
+        name: "HTML",
+        level: 95,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "CSS",
+        level: 90,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "JavaScript",
+        level: 88,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "TypeScript",
+        level: 85,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "React.js",
+        level: 90,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "Next.js",
+        level: 82,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
     ],
     styling: [
-      { name: "Tailwind CSS", level: 92, color: "from-cyan-400 to-blue-500" },
-      { name: "Sass", level: 85, color: "from-pink-500 to-red-500" },
+      {
+        name: "Tailwind CSS",
+        level: 92,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "Sass",
+        level: 85,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
     ],
     tools: [
-      { name: "Firebase", level: 78, color: "from-yellow-500 to-orange-600" },
-      { name: "Git & GitHub", level: 88, color: "from-gray-600 to-gray-800" },
       {
-        name: "AI Integration",
-        level: 85,
-        color: "from-purple-500 to-pink-500",
+        name: "Firebase",
+        level: 78,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
+      },
+      {
+        name: "Git & GitHub",
+        level: 88,
+        color:
+          "bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000",
       },
     ],
   };
@@ -40,13 +85,6 @@ const Resume = () => {
       description:
         "Completed comprehensive frontend development bootcamp covering modern web technologies and best practices.",
     },
-    {
-      institution: "Kasb-hunar Kolleji",
-      degree: "Professional Education",
-      year: "2024",
-      description:
-        "Foundation in technical education and professional skills development.",
-    },
   ];
 
   const certificates = [
@@ -56,12 +94,12 @@ const Resume = () => {
       year: "2025",
       type: "Professional Certificate",
     },
-    {
-      name: "Frontend Developer",
-      issuer: "Kasb-hunar Kolleji",
-      year: "2024",
-      type: "Professional Certificate",
-    },
+    // {
+    //   name: "Frontend Developer",
+    //   issuer: "Kasb-hunar Kolleji",
+    //   year: "2024",
+    //   type: "Professional Certificate",
+    // },
   ];
 
   return (
@@ -102,7 +140,7 @@ const Resume = () => {
           </p>
           ,
           <iframe
-            src="/CV.pdf"
+            src="/resume.pdf"
             className="w-full h-[600px]"
             title="Resume Preview"
           />
