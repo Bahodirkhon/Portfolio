@@ -16,7 +16,7 @@ const Projects = () => {
         "Tailwind CSS",
       ],
       liveLink: "https://ormanuz.vercel.app/",
-      githubLink: "https://github.com/mahmudovb10/Orman",
+      githubLink: "https://github.com/Bahodirkhon/Orman",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Projects = () => {
       image: "/green.png",
       technologies: ["React", "Tailwind CSS", "CSS"],
       liveLink: "https://green-mind-eta.vercel.app/",
-      githubLink: "https://github.com/mahmudovb10/Green-Mind",
+      githubLink: "https://github.com/Bahodirkhon/Green-Mind",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Projects = () => {
       image: "/healthy.png",
       technologies: ["React", "JavaScript", "Tailwind CSS", "CSS"],
       liveLink: "https://examfigma-g8a5.vercel.app/",
-      githubLink: "https://github.com/mahmudovb10/Healthy-Recipe",
+      githubLink: "https://github.com/Bahodirkhon/Healthy-Recipe",
     },
     {
       id: 4,

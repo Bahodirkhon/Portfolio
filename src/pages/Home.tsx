@@ -23,6 +23,7 @@ const HomePage = () => {
     "TypeScript",
     "React.js",
     "Next.js",
+    "Redux Toolkit",
     "Tailwind CSS",
     "Sass",
     "Firebase",
