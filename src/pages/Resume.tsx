@@ -86,7 +86,7 @@ const Resume = () => {
         "Completed comprehensive frontend development bootcamp covering modern web technologies and best practices.",
     },
     {
-      institution: "Kasb-hunar Kolleji",
+      institution: "Vocational College",
       degree: "Professional Education",
       year: "2024",
       description:
@@ -99,12 +99,6 @@ const Resume = () => {
       name: "Frontend Developer",
       issuer: "Najot Ta'lim",
       year: "2025",
-      type: "Professional Certificate",
-    },
-    {
-      name: "Frontend Developer",
-      issuer: "Kasb-hunar Kolleji",
-      year: "2024",
       type: "Professional Certificate",
     },
   ];
