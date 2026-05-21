@@ -92,7 +92,6 @@ const Resume = () => {
       description:
         "Foundation in technical education and professional skills development.",
     },
-
   ];
 
   const certificates = [
@@ -102,12 +101,6 @@ const Resume = () => {
       year: "2025",
       type: "Professional Certificate",
     },
-    // {
-    //   name: "Frontend Developer",
-    //   issuer: "Kasb-hunar Kolleji",
-    //   year: "2024",
-    //   type: "Professional Certificate",
-    // },
   ];
 
   return (
