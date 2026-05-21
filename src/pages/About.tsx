@@ -25,17 +25,17 @@ const About = () => {
     {
       icon: <MapPin size={20} />,
       label: "Location",
-      value: "Farg'ona, Uzbekistan",
+      value: "Ferghana, Uzbekistan",
     },
-    { icon: <Calendar size={20} />, label: "Age", value: "19 years old" },
+    { icon: <Calendar size={20} />, label: "Age", value: "20 years old" },
     {
       icon: <Code size={20} />,
       label: "Specialty",
-      value: "Frontend Development",
+      value: "Frontend Engineer",
     },
     {
       icon: <Sparkles size={20} />,
-      label: "Superpower",
+      label: "Additional skills",
       value: "AI + Backend Integration",
     },
   ];
@@ -44,7 +44,7 @@ const About = () => {
     <section id="about" className="min-h-screen py-20 px-4 md:pb-20 pb-24">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
             About Me
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
@@ -68,23 +68,14 @@ const About = () => {
           <h3 className="text-2xl font-bold mb-6 text-cyan-400">Who I Am</h3>
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
-              Hi! I'm Bahodirxon Mahmudov, a 19-year-old Frontend Developer from
-              Farg'ona, Uzbekistan. I specialize in building modern, minimalist,
-              and responsive web applications that provide exceptional user
-              experiences.
+              Hello! I am Bahodirkhon Mahmudov, a 20-year-old Frontend Developer
+              from Fergana, Uzbekistan. I develop modern, minimalist, and
+              user-friendly responsive web applications
             </p>
             <p>
-              My journey in web development started with a passion for creating
-              beautiful interfaces. I've mastered technologies like React.js,
-              Next.js, TypeScript, and Tailwind CSS to bring designs to life
-              with pixel-perfect precision.
-            </p>
-            <p>
-              While I focus on frontend development, I leverage AI tools to
-              handle backend integration when needed, allowing me to build
-              full-stack solutions independently. I believe in continuous
-              learning and staying updated with the latest web technologies and
-              best practices.
+              My experience in web development started with a passion for
+              creating I have mastered technologies such as React.js and
+              Next.js, I use CSS and Tailwind CSS to bring designs to life
             </p>
           </div>
         </div>
@@ -110,7 +101,7 @@ const About = () => {
                     </div>
                     <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden">
                       <div
-                        className="bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
+                        className="bg-linear-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
                         style={{ width: `${skill.level}%` }}
                       />
                     </div>
@@ -135,7 +126,7 @@ const About = () => {
                     </div>
                     <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden">
                       <div
-                        className="bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
+                        className="bg-linear-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
                         style={{ width: `${skill.level}%` }}
                       />
                     </div>
