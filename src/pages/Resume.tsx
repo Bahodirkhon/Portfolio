@@ -1,11 +1,4 @@
-import {
-  Download,
-  ExternalLink,
-  FileText,
-  Code,
-  Sparkles,
-  Award,
-} from "lucide-react";
+import { Download, ExternalLink, FileText, Code, Award } from "lucide-react";
 
 const Resume = () => {
   const education = [
