@@ -162,7 +162,7 @@ const About = () => {
               </div>
             </div>
             <div className="bg-slate-900/30 border border-slate-800 rounded-xl p-6">
-              <h4 className="text-lg font-semibold mb-4 text-pink-400">
+              <h4 className="text-lg font-semibold mb-4 text-purple-400">
                 Backend
               </h4>
               <div className="space-y-4">
@@ -178,7 +178,7 @@ const About = () => {
                     </div>
                     <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden">
                       <div
-                        className="bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
+                        className="bg-linear-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
                         style={{ width: `${skill.level}%` }}
                       />
                     </div>
