@@ -26,8 +26,11 @@ const HomePage = () => {
     "Redux Toolkit",
     "Tailwind CSS",
     "Sass",
-    "Firebase",
     "DaisyUI",
+    "Firebase",
+    "Firestore",
+    "Git",
+    "MongoDB",
   ];
 
   return (
@@ -60,7 +63,7 @@ const HomePage = () => {
               style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}
             >
               <p className="text-gray-400 leading-relaxed">
-                19 years old passionate developer from Fergana, specializing in
+                20 years old passionate developer from Fergana, specializing in
                 creating modern, minimalist, and user-friendly web experiences
                 with cutting-edge technologies.
               </p>

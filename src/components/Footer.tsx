@@ -4,7 +4,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: "https://github.com/mahmudovb10",
+      href: "https://github.com/Bahodirkhon",
       label: "GitHub",
     },
     {
@@ -14,7 +14,7 @@ const Footer = () => {
     },
     {
       icon: <Mail size={20} />,
-      href: "mailto:bohodirxon.mahmudoov@gmail.com",
+      href: "mailto:bahodirxon.web@gmail.com",
       label: "Email",
     },
   ];

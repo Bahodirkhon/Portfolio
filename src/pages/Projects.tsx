@@ -20,6 +20,26 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "Auron",
+      description:
+        "Auron — administratorlar o'rniga ishlaydigan AI yordamchi. Bu loyihani Telegram bori ham bor, bot guruhga qo'shilgach, a'zolarning savollariga avtomatik javob berib, admin va moderatorlarning vaqtini tejaydi. Har doim faol —  guruh azolarini savollari javobsiz qolmaydi. Auronni veb-saytida esa foydalanuvchi matematik amallar, ba'zi bir dasturlash tillari haqida ma'lumot olishi mumkin",
+      image: "/auron.png",
+      technologies: [
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "Firebase",
+        "Firestore",
+        "MongoDB",
+        "Zustand",
+        "CSS",
+      ],
+      liveLink: "https://auron-five.vercel.app/",
+      githubLink: "Private Repository",
+    },
+
+    {
+      id: 3,
       title: "Green Mind",
       description:
         "Greend Mind gul do'koni uchun preview sayt. Bu saytda xaridor gullar narxi va kompaniya haqida malumot olishi mumkin",
@@ -29,7 +49,7 @@ const Projects = () => {
       githubLink: "https://github.com/Bahodirkhon/Green-Mind",
     },
     {
-      id: 3,
+      id: 4,
       title: "Healthy Recipe",
       description:
         "Health Recipe restorani uchun menyu sayt. Bunda xaridor buyurtma qilgan taomini yoki boshqa taomlarning tarkibiy qismlarini ko'rishi mumkin",
@@ -39,7 +59,7 @@ const Projects = () => {
       githubLink: "https://github.com/Bahodirkhon/Healthy-Recipe",
     },
     {
-      id: 4,
+      id: 5,
       title: "PNT",
       description:
         "Bu sayt orqli qog'ozbozlik muammosini bartaraf qildim. Oldin Passport malumotlarini qog'ozda saqlashar edi bu esa xavfsiz emas edi. Men qurgan vebsayt orqali pasport malumotlari saytda saqlanadi va bu ancha xavfsiz, saytga faqat checklangan foydalanuvchilar kira oladi holos",
