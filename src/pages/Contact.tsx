@@ -46,7 +46,7 @@ const Contact = () => {
     {
       icon: <Github size={24} />,
       label: "GitHub",
-      link: "https://github.com/mahmudovb10",
+      link: "https://github.com/Bahodirkhon",
       color: "hover:text-gray-400",
     },
     {
@@ -58,7 +58,7 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: "Email",
-      link: "mailto:bohodirxon.mahmudoov@gmail.com",
+      link: "mailto:bahodirxon.web@gmail.com",
       color: "hover:text-cyan-400",
     },
   ];
