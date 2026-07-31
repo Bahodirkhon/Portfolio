@@ -161,6 +161,31 @@ const About = () => {
                 ))}
               </div>
             </div>
+            <div className="bg-slate-900/30 border border-slate-800 rounded-xl p-6">
+              <h4 className="text-lg font-semibold mb-4 text-pink-400">
+                Backend
+              </h4>
+              <div className="space-y-4">
+                {skills.backend.map((skill) => (
+                  <div key={skill.name}>
+                    <div className="flex justify-between mb-2">
+                      <span className="text-gray-300 text-sm">
+                        {skill.name}
+                      </span>
+                      <span className="text-gray-500 text-sm">
+                        {skill.level}
+                      </span>
+                    </div>
+                    <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden">
+                      <div
+                        className="bg-gradient-to-r from-purple-500 to-cyan-500 h-2 rounded-full transition-all duration-1000"
+                        style={{ width: `${skill.level}%` }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
